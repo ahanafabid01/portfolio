@@ -1,0 +1,20 @@
+<svg width="320" height="400" viewBox="0 0 320 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="24" y1="16" x2="294" y2="372" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D2435"/>
+      <stop offset="1" stop-color="#10141F"/>
+    </linearGradient>
+    <linearGradient id="halo" x1="40" y1="68" x2="284" y2="328" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FFF6E"/>
+      <stop offset="1" stop-color="#5BE8FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="6" y="6" width="308" height="388" rx="24" fill="url(#bg)" stroke="#FFFFFF" stroke-opacity="0.14"/>
+  <rect x="24" y="24" width="272" height="352" rx="18" fill="#0D1019"/>
+  <circle cx="160" cy="126" r="70" fill="url(#halo)" opacity="0.2"/>
+  <circle cx="160" cy="136" r="49" fill="#202A3D"/>
+  <path d="M95 286C95 244.026 129.026 210 171 210H149C190.974 210 225 244.026 225 286V300H95V286Z" fill="#202A3D"/>
+  <rect x="58" y="322" width="204" height="26" rx="13" fill="#161D2C"/>
+  <text x="160" y="340" text-anchor="middle" fill="#7FFF6E" font-family="'DM Mono', monospace" font-size="12" letter-spacing="2">ADD HEADSHOT</text>
+  <text x="160" y="363" text-anchor="middle" fill="#7A7A8C" font-family="'Syne', sans-serif" font-size="14" font-weight="600">A H A N A F</text>
+</svg>

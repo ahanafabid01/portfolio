@@ -520,6 +520,12 @@
   .hamburger { display: none; flex-direction: column; gap: 5px; cursor: none; background: none; border: none; padding: 4px; }
   .hamburger span { display: block; width: 24px; height: 1px; background: var(--text); transition: all 0.3s; }
 
+  @media (max-width: 1024px), (hover: none), (pointer: coarse) {
+    body { cursor: auto; }
+    .cursor, .cursor-ring { display: none; }
+    a, button, .project-card, .nav-links a, .nav-cta, .btn-primary, .btn-ghost, .contact-link, .hamburger { cursor: pointer; }
+  }
+
   @media (max-width: 900px) {
     nav { padding: 1.25rem 1.5rem; }
     .nav-links { display: none; }
